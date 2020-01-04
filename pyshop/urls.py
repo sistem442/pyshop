@@ -24,4 +24,5 @@ urlpatterns = [
     path('', views.index),
     path('contact/', views.contact),
     path('services/', views.services),
+    path('polls/', include('polls.urls')),
 ]

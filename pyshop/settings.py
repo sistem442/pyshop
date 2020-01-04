@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'products.apps.ProductsConfig',
     'pyshop.apps.PyshopConfig',
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
